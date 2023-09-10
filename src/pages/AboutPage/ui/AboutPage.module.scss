@@ -1,0 +1,70 @@
+
+@counter-style thumbs {
+    system: cyclic;
+    symbols: "\1F44D";
+    suffix: " ";
+  }
+  
+.AboutPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 90px 0 80px 0;
+    .about_Vitaliy{
+           display: flex;
+    background-color: #eeeeee;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 20px;
+      .imgVitaliy{
+          img{
+          width: 375px;
+          border-radius: 50%;
+    }  
+   
+    }
+    .advantages{
+        .advantages_list {
+            margin-left: 25px;
+            list-style: thumbs;
+            li{
+                text-align: start;
+                font-weight: 600;
+            }
+          }
+    }
+    }
+   .clients{
+    h3{
+        font-weight: bolder;
+    }
+       .clients_list{
+            display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+        img{
+            width: 150px;
+            margin: 5px;
+        }
+    }
+   }
+}
+
+
+@media screen and (max-width: 600px){
+    .AboutPage{
+        .about_Vitaliy{
+            flex-direction: column;
+.imgVitaliy{
+    img{
+        margin-bottom: 20px;
+        width: 330px;
+    }
+}
+        }
+        }
+}
