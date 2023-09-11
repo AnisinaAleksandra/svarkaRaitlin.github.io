@@ -1,71 +1,63 @@
-.Footer{
-    width: 100%;
-    padding: 15px 5px;
+.Footer {
+  width: 100%;
+  padding: 15px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(128 128 128 / 58%);
+
+  .container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: rgb(128 128 128 / 58%);
-
-    .container{
-        display: flex;
-        align-items: center;
+  }
+  .icons_chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .title_chats {
+      font-family: "Exo 2", sans-serif;
     }
-    .icons_chat{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        .title_chats{
-    font-family: 'Exo 2', sans-serif;
-}
+  }
+  .contacts_block {
+    display: inline-block;
+    .adress {
+      .title_adress {
+        font-family: "Exo 2", sans-serif;
+      }
     }
-    .contacts_block{
-        display: inline-block;
-        .adress{
-            .title_adress{
-                font-family: 'Exo 2', sans-serif;
-            }
-        }
-        .number_phone{
-            font-weight: bolder;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            img{
-                width: 23px;
-            }
-            a{
-                color: black;
-                text-decoration: none;
-
-            }
-        }
-        .schedule{
-            color: rgb(247, 247, 247);
-            font-weight: bold;
-        }
+    .number_phone {
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      img {
+        width: 23px;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
     }
-   
-.btn_call_container{
-margin-left: 20px;
-}
-  
+    .schedule {
+      color: rgb(247, 247, 247);
+      font-weight: bold;
+    }
+  }
 
-
+  .btn_call_container {
+    margin-left: 20px;
+  }
 }
 
-@media screen and (max-width: 475px){
-    .Footer{
-       
-.contacts_block{
-    .number_phone{
-        img{
-            display: none;
+@media screen and (max-width: 475px) {
+  .Footer {
+    .contacts_block {
+      .number_phone {
+        img {
+          display: none;
         }
+      }
     }
-    }
-        }
+  }
 }
-
-
-

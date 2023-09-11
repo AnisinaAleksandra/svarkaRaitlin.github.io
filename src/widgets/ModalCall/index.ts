@@ -1,5 +1,3 @@
-import { ModalCall } from './ui/ModalCall';
+import { ModalCall } from "./ui/ModalCall";
 
-export {
-    ModalCall,
-};
+export { ModalCall };
