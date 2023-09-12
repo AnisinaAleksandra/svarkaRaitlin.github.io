@@ -37,7 +37,7 @@ export const Header = () => {
                 Услуги
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="active"
                 to="about"
@@ -49,7 +49,7 @@ export const Header = () => {
                 Портфолио
               </Link>
               <a href="#2"></a>
-            </li>
+            </li> */}
             <li>
               <Link
                 activeClass="active"
