@@ -1,4 +1,4 @@
-##[svarkaraitkin.ru](https://svarkaraitkin.ru/)
+##[svarkaraitkin.ru](https://svarkaraitkin.ru/) #####[svarkapetrovicha.vercel.app](https://svarkapetrovicha.vercel.app/)
 
 ![screen](./Screenshot%202023-09-11%20at%2022.52.47.png)
 
