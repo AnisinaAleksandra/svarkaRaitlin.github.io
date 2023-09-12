@@ -1,4 +1,4 @@
-##[svarkaraitkin.ru](http://svarkaraitkin.ru/)
+##[svarkaraitkin.ru](https://svarkaraitkin.ru/)
 
 ![screen](./Screenshot%202023-09-11%20at%2022.52.47.png)
 
@@ -15,7 +15,7 @@
 - Validation of input fields;
 - Smooth scrolling with menu;
 - Settings **_Nginx_** on the remote server **_selectel.ru_**;
-- Protocol **_https_** (**https://certbot.eff.org**);
+- Protocol **_https_** (**https://certbot.eff.org** / **https://letsencrypt.org**);
 - Chat **_WhatsApp_**;
 
   <img src="./Screenshot%202023-09-11%20at%2022.53.32.png" style="width: 210px; height: 450px"> <img src="./Screenshot 2023-09-11 at 22.54.47.png" style="width: 210px; height: 450px"><img src="./Screenshot 2023-09-12 at 12.00.14.png" style="width: 210px;height: 400px">
