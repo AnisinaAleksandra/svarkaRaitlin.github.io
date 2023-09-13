@@ -45,6 +45,7 @@ export const ModalCall: React.FC<IModalProps> = ({
       перезвоните ${name} ${phone}`;
 
     sendNotification(textMessage, "html");
+    onClose();
   };
   const isErrorName = name !== "";
   const isErrorPhone = phone !== "";
